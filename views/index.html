@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+
+    <link rel="stylesheet" href="../assets/css/index.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="background"></div>
+        <section class="formContainer">
+            <div class="title">
+                <h2>Criar uma <span>nova</span> conta</h2>
+            </div>
+            <div class="form">
+                <form>
+
+                    <i class="fa-solid fa-user"></i><label for="username">Nome de Usuário</label><br>
+                    <input type="text" id="username" required><br>
+
+                    <i class="fa-solid fa-at"></i><label for="email">E-mail</label><br>
+                    <input type="email" id="email" required><br>
+
+                    <i class="fa-solid fa-key"></i><label for="password">Senha</label><br>
+                    <input type="password" id="password" required><br>
+
+                    <i class="fa-solid fa-check"></i><label for="passwordConfirmation">Confirme sua senha</label><br>
+                    <input type="password" id="passwordConfirmation" required><br>
+
+                    <input type="submit" id="submit" value="Criar"> 
+                </form>
+                <p class="login">Já tem uma conta? <span>clique aqui</span> pra fazer login</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/f40a995238.js" crossorigin="anonymous"></script>
+</body>
+</html>
