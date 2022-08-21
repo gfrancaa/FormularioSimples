@@ -151,3 +151,16 @@ input:focus {
     justify-content: center;
     flex-direction: column;
 }
+
+/* Responsividade em telas pequenas */
+@media only screen and (max-width: 800px) {
+    .formContainer {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .title {
+        border-radius: 0px;
+    }
+}
