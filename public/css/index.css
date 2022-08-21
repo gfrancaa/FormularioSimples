@@ -111,3 +111,53 @@ input:focus {
     color: #53ae74;
     cursor: pointer;
 }
+
+.registered {
+    z-index: 99;
+    width: auto;
+    height: auto;
+    padding: 90px;
+    background-color: white;
+    position: absolute;
+    transition: 0.4s all;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    
+}
+
+.registered button {
+    padding: 12px;
+    background: #53ae74;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.registered button:hover {
+    background: #306845;
+    transition: 0.25s all;
+}
+
+.registered i {
+    margin-right: 0px;
+    font-size: 90px;
+    color: #53ae74;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.registered p {
+    text-align: center;;
+    margin-bottom: 40px;
+}
+
+.registeredContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

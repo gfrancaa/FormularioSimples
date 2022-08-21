@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Simples</title>
 
-    <link rel="stylesheet" href="../assets/css/index.css"/>
+    <link rel="stylesheet" href="../public/css/index.css"/>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,14 @@
 </head>
 <body>
     <main>
+        <div id="registered" class="registered">
+            <div class="registeredContainer">
+                <p id="greetings"></p>
+                <p id="success"></p>
+                <button id="continue">Continuar</button>
+            </div>
+        </div>
+
         <div class="background"></div>
         <section class="formContainer">
             <div class="title">
@@ -21,7 +29,6 @@
             </div>
             <div class="form">
                 <form>
-
                     <i class="fa-solid fa-user"></i><label for="username">Nome de Usuário</label><br>
                     <input type="text" id="username" required><br>
 
@@ -34,15 +41,14 @@
                     <i class="fa-solid fa-check"></i><label for="passwordConfirmation">Confirme sua senha</label><br>
                     <input type="password" id="passwordConfirmation" required><br>
 
-                    <input type="submit" id="submit" value="Criar"> 
+                    <input type="button" id="submit" value="Criar" onclick="registeredWindow()"> 
                 </form>
                 <p class="login">Já tem uma conta? <span>clique aqui</span> pra fazer login</p>
             </div>
-
         </section>
-
     </main>
 
+    <script src="/js/index.js"></script>
     <script src="https://kit.fontawesome.com/f40a995238.js" crossorigin="anonymous"></script>
 </body>
 </html>
